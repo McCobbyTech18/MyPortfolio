@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: url(pic/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo{
+  width: 160px;
+  cursor: pointer;
+  margin-top: -3%;
+  margin-left: -2%;
+}
+
+ul{
+  margin-top: -4%;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: darkslategray;
+  margin-top: -3%;
+  transition: .4s ease;
+
+}
+
+ul li a:hover{
+  color: rgb(230,104,59);
+}
+
+h1{
+  text-align: center;
+ 
+}
+.my-skills h1{
+  font-size: 40px;
+  color:  rgb(0, 0, 0);
+}
+
+.my-skills h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.skills-image{
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+
+.skills-image img{
+  position: absolute;
+  height: 140%;
+  left: 40%;
+  transform: translate(-55%);
+  bottom: 0;
+  transition: left 2s ease;
+}
+
+.skills-image:hover .skills-mypic{
+  left: 55%;
+}
+
+.my-skills a{
+  text-decoration:  none;
+  color: #fff;
+  background: rgb(209, 85, 23);
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: .4s ease;
+  
+}
+
+.my-skills a:hover{
+  background: rgb(59,174,209);
+}
+
+.my-skills span{
+  color: rgb(230,104,59); ;
+}
